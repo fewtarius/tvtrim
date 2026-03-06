@@ -1,0 +1,34 @@
+# comskip - gitignore
+
+# CLIO internals (keep instructions.md committed)
+.clio/*
+!.clio/instructions.md
+
+# Runtime data
+tvtrim.db
+comskip.db
+logs/
+
+# Handoff files (never commit)
+ai-assisted/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+tmp*
